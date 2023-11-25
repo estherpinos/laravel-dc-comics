@@ -15,4 +15,4 @@ use App\Http\Controllers\Guest\PageController;
 |
 */
 
-Route::get('/', [PageController::class, 'index'] )->home;
+Route::get('/', [PageController::class, 'index'] )->name('home');
