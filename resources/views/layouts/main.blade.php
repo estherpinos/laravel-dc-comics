@@ -11,6 +11,11 @@
 </head>
 <body>
 
-    @yield('content')
+    @include('partials.header')
+
+    <main class="container my-5">
+        @yield('content')
+    </main>
+
 </body>
 </html>
