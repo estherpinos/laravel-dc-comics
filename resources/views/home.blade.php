@@ -4,5 +4,5 @@
 
 
 <h1>home</h1>
-<p>Attualmente ci sono 12 series</p>
+<p>Attualmente ci sono {{$num_comics}} series</p>
 @endsection
