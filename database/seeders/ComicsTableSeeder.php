@@ -28,24 +28,8 @@ class ComicsTableSeeder extends Seeder
             $new_comic->series= $comic['series'];
             $new_comic->sale_date= $comic['sale_date'];
             $new_comic->type= $comic['type'];
-            $new_comic->artists= $comic['artists'];
-            $new_comic->writers= $comic['writers'];
 
-            $artists_list = '';
 
-                foreach($new_comic->artists as $artist) {
-                    $artists_list .= $artist . ', ';
-                }
-
-            $writers_list = '';
-
-            $new_comic->artists = $artists_list;
-
-                foreach($new_comic->writers as $writer) {
-                    $writers_list .= $writer . ', ';
-                }
-
-            $new_comic->writers = $writers_list;
 
             $new_comic->save();
 
