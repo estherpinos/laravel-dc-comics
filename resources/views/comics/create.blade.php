@@ -5,7 +5,7 @@
 
 <div class="row">
     <div class="col-8">
-        <form action="{{route('comic.store')}}" method="POST"></form>
+        <form action="{{route('comic.store')}}" method="POST">
             <div class="mb-3">
                 <label for="title" class="form-label">Title</label>
                 <input type="text" class="form-control" id="title" name="title">
@@ -34,6 +34,13 @@
                 <label for="type" class="form-label">Type</label>
                 <input type="text" class="form-control" id="type" name="type">
             </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="reset" class="btn btn-secondary">Delete</button>
+
+        </form>
+
+
+
 
     </div>
 </div>
