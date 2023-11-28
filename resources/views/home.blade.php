@@ -3,6 +3,6 @@
 @section('content')
 
 
-<h1>home</h1>
+<h1>COMICS</h1>
 <p>Attualmente ci sono {{$num_comics}} series</p>
 @endsection
